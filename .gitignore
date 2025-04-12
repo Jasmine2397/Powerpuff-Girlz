@@ -1,3 +1,5 @@
 .streamlit/node_modules/
 package-lock.json
 package.json
+.streamlit/secrets.toml
+
