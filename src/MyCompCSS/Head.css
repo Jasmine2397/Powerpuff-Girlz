@@ -1,0 +1,60 @@
+/* Header.css */
+
+.navbar {
+  background-color: #A8872B !important; /* Set the navbar background color */
+  text-align: center; /* Center align text */
+}
+
+.navbar .navbar-brand {
+  color: white !important; /* Change the brand text color for better contrast */
+  text-align: center !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: rgb(255, 255, 255) !important; /* Set the text color for nav links */
+  font-weight: bold; /* Make the text bold */
+}
+
+.navbar .dropdown-menu {
+  background-color: #ffffff; /* Set a different background color for the dropdown */
+}
+
+.navbar .dropdown-item {
+  color: black; /* Set the text color for dropdown items */
+  font-weight: bold; /* Make the dropdown item text bold */
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #c9ced4; /* Optional: Change background color on hover */
+}
+.offcanvas {
+  background-color: #A8872B; /* Set the off-canvas background color */
+}
+.Logo {
+  height: 50px; 
+  width: 50px; 
+  margin-top: -10px !important;
+  margin-bottom: -10px;
+  background-image: url('../Images/Logo/LegalMosaic.jpg');
+  background-size: cover; /* or 'contain' */
+  background-position: center; /* Center the image */
+
+  margin-left: -15px !important;
+}
+.navbar-toggler {
+  margin-left: 10px;
+  margin-top: -40px; 
+
+}
+
+.custom-login-button {
+  margin-top: -40px !important;
+  margin-left: 1198px !important; 
+  background-color: #EAEAEA; 
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+  border: #001F3F solid 1px;
+}
