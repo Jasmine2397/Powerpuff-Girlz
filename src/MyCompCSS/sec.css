@@ -1,0 +1,27 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  
+  .button {
+    color: aliceblue; /* Text color */
+    padding: 20px 20px; /* Padding for button */
+    text-align: center !important; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    border: 1px solid #050404; /* Add border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+    width: 100%;                       /* Match the width of the columns */
+    height: 75px;                     /* Fixed height, adjust as needed */
+    margin: 10px;  
+    margin-top: 15px;;                    /* Space between buttons */
+    background-color: #001F3F;   
+    font-size: 20px;;      /* Example background color */                      /* Remove border */                /* Rounded corners */
+    
+  }
+  
+  .button:hover {
+    background-color: #5d87ba ; /* Change background on hover */
+    transform: scale(1.05);
+  }

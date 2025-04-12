@@ -1,0 +1,61 @@
+/* HeroSection.css */
+
+.hero-section {
+    display: flex;
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Space between text and image */
+    height: 700px; /* Adjust height as needed */
+    margin-top: 60px;
+    padding: 20px; 
+    background-position: center;
+    
+  }
+  
+  .text-container {
+    width: 50% !important; /* Limit the width of the text container */
+    padding: 20px; /* padding around the text */ 
+    border-radius: 8px; /* Rounded corners */
+    color:  #001F3F;;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    text-align: center;/* Text color */
+    font-size: 1em !important;/* Larger font size for the quote */
+    font-weight: bold;
+    margin-bottom: 10px; /* Spacing below the quote */
+    font-style: italic;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-image: url('https://images.unsplash.com/photo-1589578527966-fdac0f44566c?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ; /* Replace with your image path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    width: 50%; /* Take half the width of the page */
+    height: 100%;
+    border-radius: 20px;
+    padding: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+  .image-container:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Change shadow on hover for depth */
+}
+
+h1{
+   font-size: 40px;
+  
+}
+
+p{
+  font-size: 50px !important;
+}
