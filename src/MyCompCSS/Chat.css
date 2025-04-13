@@ -1,12 +1,12 @@
 #chatbot-button {
-    position: fixed; /* Sticks to the viewport */
-    bottom: 20px; /* Distance from the bottom */
-    right: 20px; /* Distance from the right */
-    background-color: #05093f; /* Button background color */
-    color: white; /* Text color */
-    padding: 15px 20px; /* Padding around the text */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-    cursor: pointer; /* Pointer cursor on hover */
-    z-index: 1000; /* Ensures it's on top of other elements */
-}
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #05093f;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+  }

@@ -16,6 +16,7 @@ import Chat from './MyCompCSS/Chat.css';
 import LogoAdver from './MyComponents/LogoAdver';
 import LogAdv from './MyCompCSS/LogAdv.css';
 function App() {
+  const streamlitAppUrl = "https://powerpuff-girlz-dqee2fqqlpt5dadzxz3wgq.streamlit.app/";
   let myVariable = 45;
   return (
     <>
@@ -26,7 +27,7 @@ function App() {
       <Paragraph/>
       <LogoAdver/>
       
-      <Chatbot/>
+      <Chatbot streamlitAppUrl={streamlitAppUrl}/>
       <Footer/>
       
 
