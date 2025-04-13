@@ -5,7 +5,7 @@ ByteVerse'25
 ## Presentation and Video link
 
 - Presentation Link : (https://1drv.ms/p/c/d8bd08453de280e1/EbmA8QXdcpdLvQpTmhBCLp8Bl2dfZ7Zrlbd9h5PI7Ei2-Q?e=HZLCbd)
-- Video Link :
+- Video Link : (https://drive.google.com/file/d/15vVDgyAwkOSUYayxpPJnjmv8z9heLhXZ/view?usp=drivesdk)
 
 ## Deployment Link
 
