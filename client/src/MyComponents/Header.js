@@ -7,7 +7,7 @@ export default function Header(props) {
     <nav className="navbar bg-body-tertiary fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand" href="#" background-color= '#744253' text-align='center'>
-      <img src={''} className="Logo"/>
+      <img src={null} className="Logo"/>
   </a>
    
   <div className="d-flex align-items-center w-100">
@@ -19,10 +19,10 @@ export default function Header(props) {
           </button>
   </div>
   </div>
-    <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
         <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Profile</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div className="offcanvas-body">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">

@@ -1,7 +1,6 @@
 import LegalMosaic from './Images/Logo/LegalMosaic.jpg';
 import './App.css';
 import Header from './MyComponents/Header';
-import Footer from './MyComponents/Footer';
 import News from './MyComponents/News';
 import Head from './MyCompCSS/Head.css';
 import New from './MyCompCSS/New.css';
@@ -15,7 +14,13 @@ import Chatbot from './MyComponents/Chatbot';
 import Chat from './MyCompCSS/Chat.css';
 import LogoAdver from './MyComponents/LogoAdver';
 import LogAdv from './MyCompCSS/LogAdv.css';
+// import Footer from './MyComponents/Footer';
+// import Foot from './MyCompCSS/Foot.css';
+// import Constitution from './Constitution';
+// import Const from './MyCompCSS/Const.css';
+import React from 'react';
 function App() {
+  const streamlitAppUrl = "https://powerpuff-girlz-dqee2fqqlpt5dadzxz3wgq.streamlit.app/";
   let myVariable = 45;
   return (
     <>
@@ -26,8 +31,8 @@ function App() {
       <Paragraph/>
       <LogoAdver/>
       
-      <Chatbot/>
-      <Footer/>
+      <Chatbot streamlitAppUrl={streamlitAppUrl}/>
+      {/* <Footer/> */}
       
 
     </>
