@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 200px; /* Adjust the height as needed */
+    background-color: #744253;
+  }
+  
+  .upper-container {
+    display: flex;
+    flex: 2; /* Takes up two-thirds of the height */
+  }
+  
+  .left-column{
+    flex: 1; /* Each column takes up equal space */
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  .right-column {
+    flex: 1; /* Each column takes up equal space */
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .lower-container {
+    flex: 1; /* Takes up one-third of the height */
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box; /* Include padding in width calculation */
+    background-color: #f1f1f1; /* Optional: Add a background color */
+  }

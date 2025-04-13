@@ -2,6 +2,7 @@ import LegalMosaic from './Images/Logo/LegalMosaic.jpg';
 import './App.css';
 import Header from './MyComponents/Header';
 import footer from './MyComponents/footer';
+import foot from './MyCompCSS/foot.css';
 import News from './MyComponents/News';
 import Head from './MyCompCSS/Head.css';
 import New from './MyCompCSS/New.css';
@@ -20,12 +21,11 @@ function App() {
   return (
     <>
       <Header/> 
-      <News/>ss
+      <News/>
       <Sections/>
       <Actualnews/>
       <Paragraph/>
       <LogoAdver/>
-      
       <Chatbot/>
       <footer/>
       
